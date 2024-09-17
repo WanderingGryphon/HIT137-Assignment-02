@@ -11,7 +11,7 @@ if generated_number % 2 == 0:
 print("Generated Number (n):", generated_number)
 
 #finding out the image
-image_location = "pic\chapter.jpg"
+image_location = "E:\ALL CYBER SECURITY SYLLABUS\SEMESTER TWO\HIT 137 SOFTWARE NOW\Assignment 2\Assignment 2\pic\chapter.jpg"
 
 
 #Replacing the path of image through file
@@ -31,7 +31,7 @@ modified_image_array = np.clip(modified_image_array, 0, 255)
 modified_image = Image.fromarray(modified_image_array.astype('uint8'))
 
 #Save the modified image in a specific location
-output_image_location = 'pic\m.jpg'
+output_image_location = "E:\ALL CYBER SECURITY SYLLABUS\SEMESTER TWO\HIT 137 SOFTWARE NOW\Assignment 2\Assignment 2\pic\m.jpg"
 modified_image.save(output_image_location)
 
 #final formation of the modified image
