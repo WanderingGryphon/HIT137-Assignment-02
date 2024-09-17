@@ -1,7 +1,6 @@
-# Assignment_2
+# Assignment 2
 ## Unit: HIT137 SOFTWARE NOW 
-### Group: CAS 093
-
+### Group: CAS 137
 
 ## Group Members
 
