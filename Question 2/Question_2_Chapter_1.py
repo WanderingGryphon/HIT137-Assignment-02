@@ -10,7 +10,7 @@ if generated_number % 2 == 0:
     generated_number += 10
 print("Generated Number (n):", generated_number)
 
-#finding out the image (below is the path of the local drive of my pc, this will vary from pc to pc)
+#finding out the image (below is the path of my local pc, it will vary from pc to pc)
 image_location = "E:\ALL CYBER SECURITY SYLLABUS\SEMESTER TWO\HIT 137 SOFTWARE NOW\Assignment 2\Assignment 2\pic\chapter.jpg"
 
 
@@ -30,8 +30,8 @@ modified_image_array = np.clip(modified_image_array, 0, 255)
 #Converting the modified array to an image
 modified_image = Image.fromarray(modified_image_array.astype('uint8'))
 
-#Save the modified image in a specific location (below is the path of the local drive of my pc, this will vary from pc to pc)
-output_image_location = "E:\ALL CYBER SECURITY SYLLABUS\SEMESTER TWO\HIT 137 SOFTWARE NOW\Assignment 2\Assignment 2\pic\m.jpg"
+#Save the modified image in a specific location (below is the path of my local pc, it will vary from pc to pc)
+output_image_location = "E:\ALL CYBER SECURITY SYLLABUS\SEMESTER TWO\HIT 137 SOFTWARE NOW\Assignment 2\Assignment 2\pic\chapter1out.jpg"
 modified_image.save(output_image_location)
 
 #final formation of the modified image
