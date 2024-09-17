@@ -1,5 +1,5 @@
 # Assignment 2 - HIT137 SOFTWARE NOW 
-## Group 137 - Members
+## Group CAS 137 - Members
 
 - **Hoang Ha Le** (ID: S377267)
 - **Dinesh Karki** (ID: S377286)
